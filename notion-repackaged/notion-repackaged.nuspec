@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>notion-repackaged</id>
+    <version>2.0.16.5</version>
+    <owners>Michael Lohr</owners>
+    <title>notion-repackaged (Install)</title>
+    <authors>The notion-enhancer team</authors>
+    <tags>notion desktop notion-enhancer notion-enhanced</tags>
+    <summary>Notion Desktop builds with Notion Enhancer for Windows, MacOS and Linux. Direct port of Notion is also available for Linux.</summary>
+    <description>Notion Repackaged is an effort to bring the Notion app to all major Linux distributions as well as providing a variant with notion-enhancer embedded for both Windows, Linux and MacOS.</description>
+    <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
+    <projectUrl>https://github.com/notion-enhancer/notion-repackaged</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/michidk/choco/main/icons/notion-repackaged.png</iconUrl>
+    <projectSourceUrl>https://github.com/notion-enhancer/notion-repackaged</projectSourceUrl>
+    <docsUrl>https://github.com/notion-enhancer/notion-repackaged/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/notion-enhancer/notion-repackaged/issues</bugTrackerUrl>
+    <mailingListUrl>https://github.com/notion-enhancer/notion-repackaged/issues</mailingListUrl>
+    <licenseUrl>https://github.com/notion-enhancer/notion-repackaged/blob/main/LICENSE.md</licenseUrl>
+    <releaseNotes>https://github.com/notion-enhancer/notion-repackaged/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
