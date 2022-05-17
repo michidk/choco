@@ -2,7 +2,7 @@
 
 $packageName = 'just'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64       = 'https://github.com/casey/just/releases/download/0.11.2/just-0.11.2-x86_64-pc-windows-msvc.zip'
+$url64       = 'https://github.com/casey/just/releases/download/1.1.3/just-1.1.3-x86_64-pc-windows-msvc.zip'
 $bin         = $toolsDir + '\just.exe'
 
 $packageArgs = @{
@@ -11,7 +11,7 @@ $packageArgs = @{
 
     unzipLocation = $toolsDir
 
-    checksum64    = '8293CC38EAB2BA5570A1E1D91699C1D8441DCCBACF04EBC5B979D14E917E38CE'
+    checksum64    = '00B0F3F158DA01BCFC3F712722D917F8084C9BFAA693D71F64F4E67F957FB2CB'
     checksumType64= 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
