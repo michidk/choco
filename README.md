@@ -1,18 +1,7 @@
-# Chocolatey just package
+# Chocolatey Packages
 
-[![Chocolatey](https://img.shields.io/chocolatey/v/just?include_prereleases)](https://community.chocolatey.org/packages/just)
+[![chocolatey/michidk](https://img.shields.io/badge/chocolatey-michidk-blue)](https://chocolatey.org/profiles/michidk) [![ci](https://github.com/michidk/choco/actions/workflows/ci.yml/badge.svg)](https://github.com/michidk/choco/actions/workflows/ci.yml)
 
-## Setup
+- [Update status](https://gist.github.com/michidk/b4a53804191ce7de9e54d7ac28743ee2)
 
-[just](https://community.chocolatey.org/packages/just) can be installed using [Chocolatey](https://chocolatey.org/) using the following command:
-
-```bash
-choco install -y just
-```
-
-## Release a new version
-
-1. Change url and checksum (calculated with PowerShell: `Get-FileHash`) in `tools/chocolateyinstall.ps1`
-2. Adjust version number in `just.nuspec`
-3. Run `choco pack` in the current directory
-4. Run `choco push .\{file}.nupkg --source https://push.chocolatey.org/`
+This repository contains [Chocolatey](http://chocolatey.org) packages [automatically](https://chocolatey.org/docs/automatic-packages) maintained by [au](https://github.com/majkinetor/au). Inspired by/forked from [majkinetor](https://github.com/majkinetor/au-packages-template/), [javydekoning](https://github.com/javydekoning/chocolatey-fanatec-packages) and [sitiom](https://github.com/sitiom/chocolatey-packages).

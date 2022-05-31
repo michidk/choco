@@ -1,0 +1,19 @@
+﻿VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+1. Download the tar archive:
+
+   x64: https://github.com/casey/just/releases/download/1.1.3/just-1.1.3-x86_64-pc-windows-msvc.zip
+
+2. You can use one of the following methods to obtain the checksum:
+   - Use Powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+   - Using AU:
+
+      Get-RemoteChecksum https://github.com/casey/just/releases/download/1.1.3/just-1.1.3-x86_64-pc-windows-msvc.zip
+
+3. Compare to Checksum:
+
+   checksum64: 00B0F3F158DA01BCFC3F712722D917F8084C9BFAA693D71F64F4E67F957FB2CB

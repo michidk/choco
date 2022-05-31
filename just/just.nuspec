@@ -7,9 +7,9 @@
     <title>just (Install)</title>
     <authors>The just team</authors>
     <tags>just justfile command runner</tags>
-    <summary>Just a command runner </summary>
+    <summary>Just a command runner</summary>
     <description>just is a handy way to save and run project-specific commands.</description>
-    <packageSourceUrl>https://github.com/michidk/just-choco</packageSourceUrl>
+    <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/casey/just</projectUrl>
     <projectSourceUrl>https://github.com/casey/just</projectSourceUrl>
     <docsUrl>https://github.com/casey/just/blob/master/README.md</docsUrl>
