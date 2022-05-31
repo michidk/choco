@@ -5,15 +5,15 @@ in verifying that this package's contents are trustworthy.
 
 1. Download the tar archive:
 
-   x64: https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.16-5/Notion-Enhanced-Setup-2.0.16-5.exe
+   x64: https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/Notion-Enhanced-Setup-2.0.18-1.exe
 
 2. You can use one of the following methods to obtain the checksum:
    - Use Powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
    - Using AU:
-   
-      Get-RemoteChecksum https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.16-5/Notion-Enhanced-Setup-2.0.16-5.exe
+
+      Get-RemoteChecksum https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/Notion-Enhanced-Setup-2.0.18-1.exe
 
 3. Compare to Checksum:
 
-   checksum64: DC40B9758B83CC2095170B421F04F7BA6438D29E84FC2AC33EEE3E111480F99F
+   checksum64: 72DA3BF4D83462D57A54715814C0B8B1EF9A50739E7461381EA6A595256516EE
