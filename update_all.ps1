@@ -34,15 +34,15 @@ $Options = [ordered]@{
     #RepeatSleep   = 250                                    #How much to sleep between repeats in seconds, by default 0
     #RepeatCount   = 2                                      #How many times to repeat on errors, by default 1
 
-    #NoCheckChocoVersion = $true                            #Turn on this switch for all packages
+    NoCheckChocoVersion = $true                            #Turn on this switch for all packages
 
     Report = @{
         Type = 'markdown'                                   #Report type: markdown or text
         Path = "$PSScriptRoot\Update-AUPackages.md"         #Path where to save the report
         Params= @{                                          #Report parameters:
             Github_UserRepo = $Env:github_user_repo         #  Markdown: shows user info in upper right corner
-            NoAppVeyor  = $true                            #  Markdown: do not show AppVeyor build shield
-            UserMessage = "[Ignored](#ignored) | [History](#update-history) | [Force Test](https://gist.github.com/$Env:gist_id_test) | [Releases](https://github.com/$Env:github_user_repo/tags)"       #  Markdown, Text: Custom user message to show
+            NoAppVeyor  = $true                             #  Markdown: do not show AppVeyor build shield
+            UserMessage = "[Ignored](#ignored) | [History](#update-history) | [Releases](https://github.com/$Env:github_user_repo/tags)"       #  Markdown, Text: Custom user message to show
             NoIcons     = $false                            #  Markdown: don't show icon
             IconSize    = 32                                #  Markdown: icon size
             Title       = ''                                #  Markdown, Text: TItle of the report, by default 'Update-AUPackages'
@@ -75,21 +75,6 @@ $Options = [ordered]@{
         Exclude = 'password', 'apikey', 'apitoken'          #Option keys which contain those words will be removed
         Path    = "$PSScriptRoot\update_info.xml"           #Path where to save the run info
     }
-
-    Mail = if ($Env:mail_user) {
-            @{
-                To         = $Env:mail_user
-                From       = $Env:mail_from
-                Server     = $Env:mail_server
-                UserName   = $Env:mail_user
-                Password   = $Env:mail_pass
-                Port       = $Env:mail_port
-                EnableSsl  = $Env:mail_enablessl -eq 'true'
-                Attachment = "$PSScriptRoot\update_info.xml"
-                UserMessage = ''
-                SendAlways  = $false                        #Send notifications every time
-             }
-           } else {}
 
     ForcedPackages = $ForcedPackages -split ' '
     BeforeEach = {
