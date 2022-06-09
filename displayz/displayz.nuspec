@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>displayz</id>
+    <version>0.1.0</version>
+    <owners>Michael Lohr</owners>
+    <title>displayz (Install)</title>
+    <authors>Michael Lohr</authors>
+    <tags>settings cli display</tags>
+    <summary>A CLI tool and library to control display settings on Windows written in Rust.</summary>
+    <description>A CLI tool and library to control display settings on Windows written in Rust.</description>
+    <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
+    <projectUrl>https://github.com/michidk/displayz</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/michidk/choco/main/icons/displayz.png</iconUrl>
+    <projectSourceUrl>https://github.com/michidk/displayz</projectSourceUrl>
+    <docsUrl>https://github.com/michidk/displayz/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/michidk/displayz/issues</bugTrackerUrl>
+    <mailingListUrl>https://github.com/michidk/displayz/issues</mailingListUrl>
+    <licenseUrl>https://github.com/michidk/displayz/blob/main/LICENSE</licenseUrl>
+    <releaseNotes>https://github.com/michidk/displayz/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>

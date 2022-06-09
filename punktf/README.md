@@ -1,6 +1,6 @@
 # Chocolatey punktf package
 
-[![Chocolatey](https://img.shields.io/chocolatey/v/punktf?include_prereleases)](https://community.chocolatey.org/packages/just)
+[![Chocolatey](https://img.shields.io/chocolatey/v/punktf?include_prereleases)](https://community.chocolatey.org/packages/punktf)
 
 ## Setup
 
