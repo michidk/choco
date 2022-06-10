@@ -11,7 +11,7 @@
     <description>This project was driven by the personal need of having to manage several dotfiles for different machines/targets. You want the same experience everywhere: On your work Windows machine along with an Ubuntu WSL instance, your Debian server and your private Arch installation. This tool fixes that problem while beeing cross-platform and blazingly fast.</description>
     <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/Shemnei/punktf</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/michidk/choco/main/icons/punktf.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/michidk/choco/3fd7bbd83f1326ea3b38d7b03fe345419718e468/icons/punktf.png</iconUrl>
     <projectSourceUrl>https://github.com/Shemnei/punktf</projectSourceUrl>
     <docsUrl>https://github.com/Shemnei/punktf/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/Shemnei/punktf/issues</bugTrackerUrl>

@@ -11,7 +11,7 @@
     <description>Notion Repackaged is an effort to bring the Notion app to all major Linux distributions as well as providing a variant with notion-enhancer embedded for both Windows, Linux and MacOS.</description>
     <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/notion-enhancer/notion-repackaged</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/michidk/choco/main/icons/notion-repackaged.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/michidk/choco/3fd7bbd83f1326ea3b38d7b03fe345419718e468/icons/notion-repackaged.png</iconUrl>
     <projectSourceUrl>https://github.com/notion-enhancer/notion-repackaged</projectSourceUrl>
     <docsUrl>https://github.com/notion-enhancer/notion-repackaged/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/notion-enhancer/notion-repackaged/issues</bugTrackerUrl>
