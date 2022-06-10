@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = "https://github.com/Shemnei/displayz/releases/latest"
+$releases = "https://github.com/michidk/displayz/releases/latest"
 
 function global:au_SearchReplace {
     @{
@@ -25,12 +25,11 @@ function global:au_GetLatest {
     $downloadUrl = $response.GetResponseHeader("Location")
 
     $version = $downloadUrl -Split '/' | Select-Object -Last 1
-    $version = $version.substring(1)
 
     @{
-        URL64   = "https://github.com/Shemnei/displayz/releases/download/v$version/displayz-x86_64-pc-windows-msvc.zip"
+        URL64   = "https://github.com/michidk/displayz/releases/download/$version/displayz.exe"
         Version = $version
-        ReleaseNotes = "https://github.com/Shemnei/displayz/releases/tag/v$version"
+        ReleaseNotes = "https://github.com/michidk/displayz/releases/tag/$version"
     }
 }
 
