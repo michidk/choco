@@ -17,3 +17,6 @@ in verifying that this package's contents are trustworthy.
 3. Compare to Checksum:
 
    checksum64: 72DA3BF4D83462D57A54715814C0B8B1EF9A50739E7461381EA6A595256516EE
+
+
+The license was downloaded from https://github.com/notion-enhancer/notion-repackaged/blob/main/LICENSE.md.

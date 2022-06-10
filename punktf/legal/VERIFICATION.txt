@@ -17,3 +17,6 @@ in verifying that this package's contents are trustworthy.
 3. Compare to Checksum:
 
    checksum64: e67fe62cb03ae62c8b5cddff0d602700aa02e555d3f00b254794d5d13f59aba3
+
+
+The license was downloaded from https://github.com/Shemnei/punktf/blob/main/LICENSE.
