@@ -18,6 +18,9 @@
     <mailingListUrl>https://github.com/notion-enhancer/notion-repackaged/issues</mailingListUrl>
     <licenseUrl>https://github.com/notion-enhancer/notion-repackaged/blob/main/LICENSE.md</licenseUrl>
     <releaseNotes>https://github.com/notion-enhancer/notion-repackaged/releases</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

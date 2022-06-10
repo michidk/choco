@@ -18,6 +18,9 @@
     <mailingListUrl>https://github.com/michidk/displayz/issues</mailingListUrl>
     <licenseUrl>https://github.com/michidk/displayz/blob/main/LICENSE</licenseUrl>
     <releaseNotes>https://github.com/michidk/displayz/releases</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
