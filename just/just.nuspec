@@ -1,14 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>just</id>
-    <version>1.1.3</version>
+    <version>1.3.0</version>
     <owners>Michael Lohr</owners>
     <title>just (Install)</title>
     <authors>The just team</authors>
     <tags>just justfile command runner</tags>
     <summary>Just a command runner</summary>
-    <description>just is a handy way to save and run project-specific commands.</description>
+    <description><![CDATA[[![Chocolatey](https://img.shields.io/chocolatey/v/just?include_prereleases)](https://community.chocolatey.org/packages/just)
+
+## Setup
+
+[just](https://community.chocolatey.org/packages/just) can be installed using [Chocolatey](https://chocolatey.org/) using the following command:
+
+```bash
+choco install -y just
+```
+]]></description>
     <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/casey/just</projectUrl>
     <iconUrl>https://rawcdn.githack.com/michidk/choco/3fd7bbd83f1326ea3b38d7b03fe345419718e468/icons/just.png</iconUrl>
@@ -17,7 +26,7 @@
     <bugTrackerUrl>https://github.com/casey/just/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/casey/just/issues</mailingListUrl>
     <licenseUrl>https://github.com/casey/just/blob/master/LICENSE</licenseUrl>
-    <releaseNotes>https://github.com/casey/just/releases</releaseNotes>
+    <releaseNotes>https://github.com/casey/just/releases/tag/1.3.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
