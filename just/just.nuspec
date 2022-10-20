@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>just</id>
-    <version>1.5.0</version>
+    <version>1.6.0</version>
     <owners>Michael Lohr</owners>
     <title>just (Install)</title>
     <authors>The just team</authors>
@@ -26,7 +26,7 @@ choco install -y just
     <bugTrackerUrl>https://github.com/casey/just/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/casey/just/issues</mailingListUrl>
     <licenseUrl>https://github.com/casey/just/blob/master/LICENSE</licenseUrl>
-    <releaseNotes>https://github.com/casey/just/releases/tag/1.5.0</releaseNotes>
+    <releaseNotes>https://github.com/casey/just/releases/tag/1.6.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
