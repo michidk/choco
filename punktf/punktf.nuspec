@@ -25,7 +25,7 @@ choco install -y punktf
     <docsUrl>https://github.com/Shemnei/punktf/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/Shemnei/punktf/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/Shemnei/punktf/issues</mailingListUrl>
-    <licenseUrl>https://github.com/Shemnei/punktf/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/Shemnei/punktf/blob/main/LICENSE-MIT</licenseUrl>
     <releaseNotes>https://github.com/Shemnei/punktf/releases/tag/v1.0.2</releaseNotes>
   </metadata>
   <files>
