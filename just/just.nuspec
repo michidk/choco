@@ -22,7 +22,7 @@ choco install -y just
     <projectUrl>https://github.com/casey/just</projectUrl>
     <iconUrl>https://rawcdn.githack.com/michidk/choco/3fd7bbd83f1326ea3b38d7b03fe345419718e468/icons/just.png</iconUrl>
     <projectSourceUrl>https://github.com/casey/just</projectSourceUrl>
-    <docsUrl>https://github.com/casey/just/blob/master/README.md</docsUrl>
+    <docsUrl>https://just.systems/man/en/</docsUrl>
     <bugTrackerUrl>https://github.com/casey/just/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/casey/just/issues</mailingListUrl>
     <licenseUrl>https://github.com/casey/just/blob/master/LICENSE</licenseUrl>
