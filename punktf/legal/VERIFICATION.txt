@@ -5,18 +5,18 @@ in verifying that this package's contents are trustworthy.
 
 1. Download the tar archive:
 
-   x64: https://github.com/Shemnei/punktf/releases/download/v1.0.2/punktf-x86_64-pc-windows-msvc.zip
+   x64: https://github.com/Shemnei/punktf/releases/download/v2.0.0/punktf-x86_64-pc-windows-msvc.zip
 
 2. You can use one of the following methods to obtain the checksum:
    - Use Powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
    - Using AU:
 
-Get-RemoteChecksum https://github.com/Shemnei/punktf/releases/download/v1.0.2/punktf-x86_64-pc-windows-msvc.zip
+Get-RemoteChecksum https://github.com/Shemnei/punktf/releases/download/v2.0.0/punktf-x86_64-pc-windows-msvc.zip
 
 3. Compare to Checksum:
 
-   checksum64: FAD9D2C36E079A78A8CDD2020AF6B822C64BFA6702A718F0A0CE9480C39D6C24
+   checksum64: 66AA983FF28A354BDB2EE5CD0308D64CBC9D56387E6EADCAB95069A506884692
 
 
 The license was downloaded from https://github.com/Shemnei/punktf/blob/main/LICENSE.
