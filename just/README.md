@@ -1,23 +1,4 @@
-# `just`
-
-<div align="center">
-  <a href="https://crates.io/crates/just">
-    <img src="https://img.shields.io/crates/v/just.svg" alt="crates.io version">
-  </a>
-  <a href="https://github.com/casey/just/actions">
-    <img src="https://github.com/casey/just/workflows/Build/badge.svg" alt="build status">
-  </a>
-  <a href="https://github.com/casey/just/releases">
-    <img src="https://img.shields.io/github/downloads/casey/just/total.svg" alt="downloads">
-  </a>
-  <a href="https://discord.gg/ezYScXR">
-    <img src="https://img.shields.io/discord/695580069837406228?logo=discord" alt="chat on discord">
-  </a>
-  <a href="mailto:casey@rodarmor.com?subject=Thanks%20for%20Just!">
-    <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="say thanks">
-  </a>
-</div>
-<br>
+# Just a command runner
 
 `just` is a handy way to save and run project-specific commands.
 
