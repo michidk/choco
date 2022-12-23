@@ -2,15 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>punktf</id>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
     <owners>Michael Lohr</owners>
     <title>punktf (Install)</title>
     <authors>Jonas Grawe, Michael Lohr</authors>
     <tags>dotfiles rust cli dotfile dotfiles-manager</tags>
     <summary>A cross-platform multi-target dotfiles manager</summary>
-    <description><![CDATA[# A cross-platform multi-target dotfiles manager
-
-## Yet another dotfile manager?!
+    <description><![CDATA[## Yet another dotfile manager?!
 
 Well, yes, but hear me out: This project was driven by the personal need of having to manage several dotfiles for different machines/targets. You want the same experience everywhere: On your Windows workstation along with an Ubuntu WSL instance, your Debian server and your private Arch installation. This tool fixes that problem while being cross-platform and blazingly fast. You won't need multiple sets of dotfile configurations ever again!
 
@@ -30,7 +28,7 @@ Well, yes, but hear me out: This project was driven by the personal need of havi
     <bugTrackerUrl>https://github.com/Shemnei/punktf/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/Shemnei/punktf/issues</mailingListUrl>
     <licenseUrl>https://github.com/Shemnei/punktf/blob/main/LICENSE-MIT</licenseUrl>
-    <releaseNotes>https://github.com/Shemnei/punktf/releases/tag/v2.0.0</releaseNotes>
+    <releaseNotes>https://github.com/Shemnei/punktf/releases/tag/v3.0.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
