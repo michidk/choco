@@ -1,0 +1,22 @@
+﻿VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+1. Download the tar archive:
+
+   x64: https://github.com/typst/typst/releases/download/v0.1.0/typst-x86_64-pc-windows-msvc.zip
+
+2. You can use one of the following methods to obtain the checksum:
+   - Use Powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+   - Using AU:
+
+      Get-RemoteChecksum https://github.com/typst/typst/releases/download/v0.1.0/typst-x86_64-pc-windows-msvc.zip
+
+3. Compare to Checksum:
+
+   checksum64: 247E36A4AE45F1A3512DB2B3B1675CC78ABB624D7FF3E7DE96D1E2F76639DCCC
+
+
+The license was downloaded from https://github.com/typst/typst/blob/main/LICENSE.
