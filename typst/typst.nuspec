@@ -15,7 +15,7 @@ A new markup-based typesetting system that is powerful and easy to learn.
 ]]></description>
     <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/typst/typst</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/michidk/choco/70bdede6a1e50dc0184b0fbed74e294eb90b59c3/icons/typst.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/michidk/choco/84f2c8f6b5f68cd881c774b1f88d08f41e995742/icons/typst.png</iconUrl>
     <projectSourceUrl>https://github.com/typst/typst</projectSourceUrl>
     <docsUrl>https://github.com/typst/typst/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/typst/typst/issues</bugTrackerUrl>
