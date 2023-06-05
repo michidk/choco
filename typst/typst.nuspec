@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>typst</id>
@@ -8,7 +8,11 @@
     <authors>The Typst Project Developers</authors>
     <tags>compiler cli markup typesetting</tags>
     <summary>A new markup-based typesetting system that is powerful and easy to learn.</summary>
-    <description>A new markup-based typesetting system that is powerful and easy to learn.</description>
+    <description><![CDATA[[![MIT License](https://img.shields.io/badge/license-Apache%202-brightgreen)](https://choosealicense.com/licenses/apache/) [![Discord](https://img.shields.io/discord/1054443721975922748?color=5865F2&label=discord&labelColor=555)](https://discord.gg/2uDybryKPe) [![Docs](https://img.shields.io/website?down_message=offline&label=docs&up_color=007aff&up_message=online&url=https%3A%2F%2Ftypst.app%2Fdocs)](https://typst.app/docs/)
+[![Chocolatey](https://img.shields.io/chocolatey/v/typst?include_prereleases)](https://community.chocolatey.org/packages/typst)
+
+A new markup-based typesetting system that is powerful and easy to learn.
+]]></description>
     <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/typst/typst</projectUrl>
     <iconUrl>https://rawcdn.githack.com/michidk/choco/70bdede6a1e50dc0184b0fbed74e294eb90b59c3/icons/typst.png</iconUrl>
@@ -17,9 +21,10 @@
     <bugTrackerUrl>https://github.com/typst/typst/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/typst/typst/issues</mailingListUrl>
     <licenseUrl>https://github.com/typst/typst/blob/main/LICENSE</licenseUrl>
-    <releaseNotes>https://github.com/typst/typst/releases</releaseNotes>
+    <releaseNotes>https://github.com/typst/typst/releases/tag/v0.1.0</releaseNotes>
   </metadata>
   <files>
+    <file src="tools\**" target="tools" />
     <file src="legal\**" target="legal" />
   </files>
 </package>

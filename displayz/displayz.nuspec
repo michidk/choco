@@ -20,6 +20,7 @@
     <releaseNotes>https://github.com/michidk/displayz/releases</releaseNotes>
   </metadata>
   <files>
+    <file src="tools\**" target="tools" />
     <file src="legal\**" target="legal" />
   </files>
 </package>
