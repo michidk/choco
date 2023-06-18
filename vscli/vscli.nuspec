@@ -22,6 +22,7 @@ A CLI tool to launch vscode projects, which supports [devcontainers](https://con
 ]]> </description>
     <packageSourceUrl>https://github.com/michidk/choco</packageSourceUrl>
     <projectUrl>https://github.com/michidk/vscli</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/michidk/choco/6118785f62585638a06ef410085aa14d98830e8e/icons/vscli.png</iconUrl>
     <projectSourceUrl>https://github.com/michidk/vscli</projectSourceUrl>
     <docsUrl>https://github.com/michidk/vscli/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/michidk/vscli/issues</bugTrackerUrl>
