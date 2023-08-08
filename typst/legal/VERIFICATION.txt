@@ -5,18 +5,18 @@ in verifying that this package's contents are trustworthy.
 
 1. Download the tar archive:
 
-   x64: https://github.com/typst/typst/releases/download/v0.6.0/typst-x86_64-pc-windows-msvc.zip
+   x64: https://github.com/typst/typst/releases/download/v0.7.0/typst-x86_64-pc-windows-msvc.zip
 
 2. You can use one of the following methods to obtain the checksum:
    - Use Powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
    - Using AU:
 
-      Get-RemoteChecksum https://github.com/typst/typst/releases/download/v0.6.0/typst-x86_64-pc-windows-msvc.zip
+      Get-RemoteChecksum https://github.com/typst/typst/releases/download/v0.7.0/typst-x86_64-pc-windows-msvc.zip
 
 3. Compare to Checksum:
 
-   checksum64: 2F37C5EB70669CC6A5F411338E49B29FDBBB9F78BBB18A9BB09DA1D236F002D2
+   checksum64: 9FB7FE840A031A785018DD3D2F43E851BF436BF89CE3DAE1B5A87033D2BA02D6
 
 
 The license was downloaded from https://github.com/typst/typst/blob/main/LICENSE.
