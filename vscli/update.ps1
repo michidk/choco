@@ -19,17 +19,17 @@ function global:au_SearchReplace {
 function global:au_BeforeUpdate { Get-RemoteFiles -Purge -NoSuffix }
 
 function global:au_GetLatest {
-    $request = [System.Net.WebRequest]::Create($releases)
-    $request.AllowAutoRedirect = $false
-    $response = $request.GetResponse()
-    $downloadUrl = $response.GetResponseHeader("Location")
+    $request                    = [System.Net.WebRequest]::Create($releases)
+    $request.AllowAutoRedirect  = $false
+    $response                   = $request.GetResponse()
+    $downloadUrl                = $response.GetResponseHeader("Location")
 
     $version = $downloadUrl -Split '/' | Select-Object -Last 1
 
     @{
-        URL64        = "https://github.com/michidk/vscli/releases/download/$version/vscli-x86_64-pc-windows-msvc.zip"
-        Version = $version.replace("v", "")
-        ReleaseNotes = "https://github.com/michidk/vscli/releases/tag/$version"
+        URL64           = "https://github.com/michidk/vscli/releases/download/$version/vscli-x86_64-pc-windows-msvc.zip"
+        Version         = $version.replace("v", "")
+        ReleaseNotes    = "https://github.com/michidk/vscli/releases/tag/$version"
     }
 }
 
