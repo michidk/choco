@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>typst</id>
-    <version>0.7.0</version>
+    <version>0.8.0</version>
     <owners>Michael Lohr</owners>
     <title>typst (Install)</title>
     <authors>The Typst Project Developers</authors>
@@ -21,7 +21,7 @@ A new markup-based typesetting system that is powerful and easy to learn.
     <bugTrackerUrl>https://github.com/typst/typst/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/typst/typst/issues</mailingListUrl>
     <licenseUrl>https://github.com/typst/typst/blob/main/LICENSE</licenseUrl>
-    <releaseNotes>https://github.com/typst/typst/releases/tag/v0.7.0</releaseNotes>
+    <releaseNotes>https://github.com/typst/typst/releases/tag/v0.8.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
