@@ -5,18 +5,18 @@ in verifying that this package's contents are trustworthy.
 
 1. Download the tar archive:
 
-   x64: https://github.com/michidk/vscli/releases/download/v0.1.8/vscli-x86_64-pc-windows-msvc.zip
+   x64: https://github.com/michidk/vscli/releases/download/v0.1.9/vscli-x86_64-pc-windows-msvc.zip
 
 2. You can use one of the following methods to obtain the checksum:
    - Use Powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
    - Using AU:
 
-      Get-RemoteChecksum https://github.com/michidk/vscli/releases/download/v0.1.8/vscli-x86_64-pc-windows-msvc.zip
+      Get-RemoteChecksum https://github.com/michidk/vscli/releases/download/v0.1.9/vscli-x86_64-pc-windows-msvc.zip
 
 3. Compare to Checksum:
 
-   checksum64: 1D11C0CE7707E08E4391B5EF3ECDADA2FD4C38E00F9840FFB0F10B2471A5D9C0
+   checksum64: 2D310730746204923459C374E77E9EEA6BC7077FF7B439BC556B5B991A077A0A
 
 
 The license was downloaded from https://github.com/michidk/vscli/blob/main/LICENSE.
