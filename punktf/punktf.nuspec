@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>punktf</id>
-    <version>3.1.0</version>
+    <version>3.1.1</version>
     <owners>Michael Lohr</owners>
     <title>punktf (Install)</title>
     <authors>Jonas Grawe, Michael Lohr</authors>
@@ -28,7 +28,7 @@ Well, yes, but hear me out: This project was driven by the personal need of havi
     <bugTrackerUrl>https://github.com/Shemnei/punktf/issues</bugTrackerUrl>
     <mailingListUrl>https://github.com/Shemnei/punktf/issues</mailingListUrl>
     <licenseUrl>https://github.com/Shemnei/punktf/blob/main/LICENSE-MIT</licenseUrl>
-    <releaseNotes>https://github.com/Shemnei/punktf/releases/tag/v3.1.0</releaseNotes>
+    <releaseNotes>https://github.com/Shemnei/punktf/releases/tag/v3.1.1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
