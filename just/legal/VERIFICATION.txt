@@ -5,18 +5,18 @@ in verifying that this package's contents are trustworthy.
 
 1. Download the tar archive:
 
-   x64: https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-pc-windows-msvc.zip
+   x64: https://github.com/casey/just/releases/download/1.39.0/just-1.39.0-x86_64-pc-windows-msvc.zip
 
 2. You can use one of the following methods to obtain the checksum:
    - Use Powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
    - Using AU:
 
-      Get-RemoteChecksum https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-pc-windows-msvc.zip
+      Get-RemoteChecksum https://github.com/casey/just/releases/download/1.39.0/just-1.39.0-x86_64-pc-windows-msvc.zip
 
 3. Compare to Checksum:
 
-   checksum64: C68947147E10A78467FFBFBB8D9CE6163EBA515B9429B5B68F286E260B63BFD2
+   checksum64: B99304DF08FDAFAA2EA92714A0696727F7FF0CB8DD02527095AEB4419E5F6DE9
 
 
 The license was downloaded from https://github.com/casey/just/blob/master/LICENSE.
