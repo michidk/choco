@@ -43,6 +43,7 @@ jobs:
         shell: powershell
         env:
           au_version: "master"
+          GITVERSION_CONFIGURATION_VERSION: "v6"
         run: |
           Install-Module powerhtml -Force -SkipPublisherCheck
           git clone -q https://github.com/chocolatey-community/chocolatey-au.git $Env:TEMP/au
